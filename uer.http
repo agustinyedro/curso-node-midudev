@@ -1,0 +1,21 @@
+
+###
+GET http://localhost:3000/
+
+### register
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"agustin",
+    "password":"123456"
+}
+###Login
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"agustin",
+    "password":"123456"
+}
